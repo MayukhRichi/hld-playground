@@ -1,4 +1,4 @@
-# OS-specific
+# OS-specific files
 .DS_Store
 Thumbs.db
 Desktop.ini
@@ -12,8 +12,10 @@ Desktop.ini
 *.njsproj
 *.sln
 *.sw?
+
+# Log files
 *.log
 
-# Common temp files
+# Backup/temp files
 *.bak
 *~

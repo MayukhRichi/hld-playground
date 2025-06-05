@@ -5,13 +5,47 @@
 # Maven/Gradle wrappers
 .mvn/
 .gradle/
+/mvn/wrapper/maven-wrapper.jar
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
 
 # Environment variables
 .env
 
-# Dependency directories
-**/out/
-
-# Local config
+# Local override configurations
 *.properties.local
 *.yml.local
+
+# Output directories in any module
+**/out/
+
+# Exceptions (to allow nested target/build inside src for any module)
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Miscellaneous
+HELP.md
