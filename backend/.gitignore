@@ -1,0 +1,17 @@
+# Build outputs
+/target/
+/build/
+
+# Maven/Gradle wrappers
+.mvn/
+.gradle/
+
+# Environment variables
+.env
+
+# Dependency directories
+**/out/
+
+# Local config
+*.properties.local
+*.yml.local

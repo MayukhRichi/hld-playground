@@ -1,0 +1,19 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+.directory
+.Trash-*
+
+# Editor/IDE files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+
+# Common temp files
+*.bak
+*~
