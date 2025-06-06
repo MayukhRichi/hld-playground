@@ -1,9 +1,10 @@
-import { Button } from '@/components/ui/button';
+import { SystemModelManager } from './sytemModel/SystemModelManager';
+import { ThemeProvider } from '@/components/layout/themeController/ThemeProvider';
 
 export const HomePage = () => {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
-    </div>
+    <ThemeProvider defaultTheme="dark">
+      <SystemModelManager />
+    </ThemeProvider>
   );
 };
